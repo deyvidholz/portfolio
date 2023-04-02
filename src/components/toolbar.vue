@@ -9,7 +9,7 @@
     <v-list>
       <v-list-item v-for="(item, index) in items" :key="index">
         <v-list-item-title>
-          <v-btn :color="item.color" @click="scrollTo">
+          <v-btn :color="item.color" @click="scrollTo(item.link)">
             <v-icon class="mr-1">{{ item.icon }}</v-icon>
             {{ item.text }}
           </v-btn>
@@ -84,6 +84,8 @@ export default {
         const elementPosition = element.offsetTop;
         window.scrollTo({ top: elementPosition - 40, behavior: "smooth" });
       }
+
+      this.drawer = false;
     },
   },
 };
