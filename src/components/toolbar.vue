@@ -22,7 +22,7 @@
     <template v-slot:prepend v-if="$vuetify.display.smAndDown"> </template>
 
     <v-app-bar-title
-      class="text-orange font-weight-bold"
+      class="text-blue font-weight-bold"
       style="cursor: pointer"
       @click="scrollToTop"
     >
