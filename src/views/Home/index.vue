@@ -285,7 +285,7 @@ export default {
         title: "7D2D - Better Config",
         description:
           "Take your 7 Days to Die gameplay to the next level with zombie headshots, modified item damage, and more! Last tested on Alpha 20.3",
-        stack: ["NodeJS", "TypeScript", "NestJS", "Jest"],
+        stack: ["NodeJS"],
         previewUrl: "https://github.com/deyvidholz/7D2DBetterConfig",
       },
     ],
